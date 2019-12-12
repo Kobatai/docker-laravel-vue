@@ -19,6 +19,3 @@ RUN apt-get update \
 
 
 WORKDIR /var/www/html
-
-# install laravel
-RUN compose global require "laravel/installer"
