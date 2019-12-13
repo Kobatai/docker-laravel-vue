@@ -16,6 +16,8 @@
 
 * 8000→php
 * 80→phpmyadmin
+* 3306→MySql
+
 
 ### laravel
 
