@@ -26,4 +26,11 @@
   <br>で作ってください
 
 
-※.envとvendorディレクトリは各laravelプロジェクトごとに異なるため、プロジェクトをpullしcomposer updateと.envsampleー＞.envに変更する
+.envとvendorディレクトリは各laravelプロジェクトごとに異なるため、プロジェクトをpullしcomposer updateと.envsampleー＞.envに変更する
+
+またlaravelプロジェクトをpullして取得する場合はapplication keyが作成されていないため、
+```php artisan key:generate```
+を実行する
+
+同じくpullした場合はnode_modulesもローカルでインストールする必要がる
+```npm run install```
