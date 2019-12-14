@@ -2,15 +2,15 @@
 
 ## 導入手順
 
-1.git cloneする
+1.```git clone```する
 
-2.docker-compose.ymlのディレクトリでビルド
+2.```docker-compose.yml```のディレクトリでビルド
 　
- docker-compose build
+ ```docker-compose build```
 
 3.コンテナ立ち上げ
 　
- docker-compose up -d
+ ```docker-compose up -d```
 
 ### ポートフォワーディング
 
