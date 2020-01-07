@@ -32,5 +32,5 @@
 ```php artisan key:generate```
 を実行する
 
-同じくpullした場合はnode_modulesもローカルでインストールする必要がる
+同じくpullした場合はnode_modulesもローカルでインストールする必要がある
 ```npm run install```
